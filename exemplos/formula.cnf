@@ -1,0 +1,7 @@
+c Exemplo pequeno: (x1 ou x2) e (não x1 ou x3) e (não x2 ou não x3) e (x2 ou x3).
+c Tem dois modelos: (x1, x2, x3) = (falso, verdadeiro, falso) ou (verdadeiro, falso, verdadeiro).
+p cnf 3 4
+1 2 0
+-1 3 0
+-2 -3 0
+2 3 0

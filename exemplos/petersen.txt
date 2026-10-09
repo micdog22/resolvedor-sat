@@ -1,0 +1,19 @@
+# Grafo de Petersen: 10 vértices, 15 arestas, número cromático 3.
+# Ciclo de fora
+0 1
+1 2
+2 3
+3 4
+4 0
+# Raios
+0 5
+1 6
+2 7
+3 8
+4 9
+# Pentagrama de dentro
+5 7
+7 9
+9 6
+6 8
+8 5
